@@ -1,0 +1,78 @@
+.version.about /* version checker */
+{
+	color: #000005;
+	background-color: #B286F4;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 608px;
+	-pie-box-shadow: none;
+	box-shadow: 0px 0px 8px rgba(255,255,255,0.5),0px 0px 8px rgba(255,255,255,0.5)/* glow */,
+6px 6px 8px rgba(0,0,0,0.5)/* drop shadow*/;
+	border-style: none;
+	border-color: #000000;
+	padding-bottom: 62px;
+	margin-left: auto;
+	margin-right: auto;
+	background: transparent url("../images/10647837_1531553750479177_545691554_n-page-fr2.png") repeat-x left top;
+}
+
+#page::before
+{
+	content: "";
+	position: absolute;
+	pointer-events: none;
+	box-shadow: inset 3px 3px 4px rgba(255,255,255,0.75), inset -3px -3px 4px rgba(0,0,0,0.75);
+	top: 36px;
+	bottom: 36px;
+	width: 960px;
+}
+
+#u549-5
+{
+	z-index: 2;
+	width: 406px;
+	min-height: 374px;
+	background-color: transparent;
+	line-height: 29px;
+	font-size: 24px;
+	text-align: center;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 218px;
+	left: 54px;
+}
+
+#u550
+{
+	z-index: 7;
+	width: 314px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 218px;
+	left: 546px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
